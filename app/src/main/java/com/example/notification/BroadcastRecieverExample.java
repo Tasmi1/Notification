@@ -13,12 +13,9 @@ public class BroadcastRecieverExample extends BroadcastReceiver {
 
 
     private NotificationManagerCompat notificationManagerCompat;
-    Context context;
 
 
-    public BroadcastRecieverExample(Context context) {
-        this.context = context;
-    }
+
 
     @Override
     public void onReceive(Context context, Intent intent)
